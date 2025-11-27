@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
     box-sizing: border-box;
@@ -7,6 +8,7 @@
 }
 .hrst{
     width: 100%;
+    min-height: 815px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -486,7 +488,7 @@
     display: flex;
     gap: 32.21px;
 }
-.slide3-right-input input{
+.slide3-right-input div{
     width: 100%;
     min-height: 58px;
     border-radius: 4px;
@@ -499,6 +501,8 @@
     line-height: 24px;
     letter-spacing: 0%;
     color: #ABABAB;
+    display: flex;
+    align-items: center;
 }
 .slide3-right-cmt{
     margin-top: 14px;
@@ -554,6 +558,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 35px;
 }
 .slide4-container-button-top{
     width: 100%;
@@ -585,7 +590,8 @@
     height: 370px;
     padding: 0 95px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 72px;
     position: relative;
 }
 .slide4-container-bottom-left{
@@ -627,7 +633,7 @@
     color: #2D2E2E;
 }
 .slide4-container-bottom-box-name{
-    margin-top: 22px;
+    margin-top: 32px;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
@@ -679,4 +685,12 @@
 .footer-container-icon{
     display: flex;
     gap: 15px;
+}
+.hrst-container-header-logo{
+    width: 185.75172424316406px;
+    height: 40px;
+}
+.footer-container-logo{
+    width: 138.01690673828125px;
+    height: 30px;
 }
